@@ -5,20 +5,22 @@ admin_path: static/admin
 webhook_url: https://api.stackbit.com/project/5dc5e0538619fa001b8d91fb/webhook/forestry
 sections:
 - type: document
-  path: site-metadata.json
-  label: config
-  templates:
-  - config
-- type: document
   path: src/data/menu.yml
   label: Menu Configuration
   templates:
   - menu
 - type: document
+  path: site-metadata.json
+  label: config
+  templates:
+  - config
+- type: document
   path: src/data/footer.yml
   label: Footer Configuration
   templates:
   - footer
+- type: heading
+  label: heading label 1
 - type: document
   path: src/pages/index.md
   label: Home
