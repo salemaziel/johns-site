@@ -19,8 +19,6 @@ sections:
   label: Footer Configuration
   templates:
   - footer
-- type: heading
-  label: heading label 1
 - type: document
   path: src/pages/index.md
   label: Home
